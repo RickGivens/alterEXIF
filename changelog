@@ -1,0 +1,79 @@
+CHANGELOG
+Project: alterEXIFpy3
+Format: Semantic Versioning (MAJOR.MINOR.PATCH)
+
+Version 2.0.0 - 2026-06-26
+Modernized Python 3 Release
+
+Added:
+
+Complete Python 3 rewrite of the original alterEXIF script
+
+New command line interface using argparse
+
+Batch processing mode for folders
+
+EXIF backup system (JSON format)
+
+City based GPS spoofing
+
+Random radius GPS spoofing
+
+Altitude spoofing
+
+Logging system with verbose mode
+
+Overwrite protection for destination files
+
+Centralized GPS EXIF builder
+
+Single pass EXIF load and write for improved performance
+
+AI assistance disclosure and documentation updates
+
+Improved:
+
+Code structure and readability
+
+Error handling and input validation
+
+Memory efficiency by closing images immediately
+
+DMS conversion logic (consolidated and standardized)
+
+Folder creation and file handling logic
+
+Fixed:
+
+Crashes when GPS tags were missing
+
+Inconsistent EXIF writes on some JPEGs
+
+Redundant code paths from the legacy version
+
+Removed:
+
+Python 2 specific code
+
+Legacy interactive input prompts
+
+Duplicate EXIF handling logic
+
+Version 1.0.0 - Legacy Release
+Original alterEXIF Script (Python 2)
+
+Notes:
+
+Basic GPS EXIF modification
+
+Limited error handling
+
+No batch mode
+
+No EXIF backup
+
+No CLI
+
+No spoofing radius or city presets
+
+Deprecated due to Python 2 end of life
